@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fonts.css" />
+    <link rel="stylesheet" href="./src/css/app.css" />
+    <title>Dropdown Menu</title>
+  </head>
+  <body>
+    <header>
+      <section>
+        <nav>
+          <img src="./src/icons/logo.svg" alt="" class="siteLogo" />
+        </nav>
+      </section>
+      <section>
+        <nav class="nav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li id="servicesDropdown">
+              <a href="" id="servicesLink"
+                >Services
+                <span>
+                  <img
+                    src="./src/icons/chevron-down.svg"
+                    alt=""
+                    id="servicesDropdownIcon" /></span
+              ></a>
+              <div id="dropdown">Dropdown content</div>
+            </li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <nav>
+          <button class="btn"><a href="">Let's work together</a></button>
+        </nav>
+      </section>
+    </header>
+    <footer><script src="./src/js/nav.js"></script></footer>
+  </body>
+</html>
